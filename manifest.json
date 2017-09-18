@@ -1,0 +1,29 @@
+{
+  "name": "blockfm volume changer",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "blockfm volume changer",
+  "background": { "scripts": ["background.js"] },
+  "permissions": [
+    "https://block.fm/*"
+  ],
+  "page_action":
+  {
+    "default_icon": "icon.png",
+    "default_title": "blockfm volume changer"
+ }, 
+  "content_scripts": [
+    {
+      "matches": [
+        "https://block.fm/*"
+      ],
+      "js": [
+        "content-script.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "embeded-script.js"
+  ]
+}
+
