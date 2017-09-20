@@ -1,3 +1,5 @@
+![icon](https://github.com/tanitta/blockfm-volume-changer/blob/master/icon.png)
+
 blockfm-volume-changer
 ====
 
